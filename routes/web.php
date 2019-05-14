@@ -18,3 +18,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/toko', 'TokoController@index');
+Route::post('/toko/create', 'TokoController@create');
+Route::get('/toko/jual', 'TokoController@jual');
+Route::get('/toko/jual2', 'TokoController@jual2');
+Route::get('/toko/show', 'TokoController@show');
+Route::get('/toko/edit/{id}','TokoController@edit');
+Route::post('/toko/update/{id}','TokoController@update');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
