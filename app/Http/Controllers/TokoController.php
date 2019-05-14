@@ -15,12 +15,6 @@ class TokoController extends Controller
 
      public function create(Request $request)
     {
-        // $this->validate($request, [
-        //     'namaBrg' => 'required',
-        //     'kodeBrg' => 'required',
-        //     'stok' => 'required'
-        // ]);
-
         $tambah = new Toko;
         $tambah->namaBrg = $request['namaBrg'];
         $tambah->kodeBrg = $request['kodeBrg'];
