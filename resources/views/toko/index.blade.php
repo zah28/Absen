@@ -33,7 +33,7 @@
                               <input name= "stok" type="number" class="form-control" id="stok" placeholder="stok">
                             </div>
                             <div class="form-group">
-                              <label for="hrgGrosir">Harga Grosir</label>
+                              <label for="hrgGrosir">Harga Beli</label>
                               <input name= "hrgGrosir" type="number" class="form-control" id="hrgGrosir" placeholder="hrgGrosir">
                             </div>
                             <div class="form-group">

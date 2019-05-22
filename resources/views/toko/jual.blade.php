@@ -38,7 +38,7 @@
                         <th scope="col">Stok</th>
                         <th scope="col">Harga Jual</th>
                         <th scope="col">Banyak</th>
-                        <th scope="col">#</th>
+                        <th scope="col">Jumlah</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -63,7 +63,7 @@
                         <tr>
                         <th scope="col">Barang</th>
                         <th scope="col">Total</th>
-                        <th scope="col">#</th>
+                        <th scope="col">Jumlah</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,7 +71,7 @@
                         <tr>
                             <td>{{$item->namaBrg}}</td>
                             <td>
-                            <input name="total" id="total" type="number" class="form-control form-control-sm" name="total" placeholder="Jumlah Barang" value="">
+                            <input name="total" id="total" type="number" class="form-control form-control-sm" name="total" placeholder="Total Harga" value="">
                             </td>
                             <td>
                                 <a class="btn btn-primary btn-sm" href="/items/edit/{{$item->id}}">Kirim</a>

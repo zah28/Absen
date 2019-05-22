@@ -66,4 +66,11 @@ class TokoController extends Controller
         $toko->update($request->all());
         return redirect('/toko/show');
     }
+    public function destroy($id)
+    {
+        $delete = Toko::where('id',$id);
+        $delete->delete();
+
+        return redirect()->to('/toko/show');
+    }
 }
